@@ -1,0 +1,113 @@
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: black;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
+.splash{
+    fill:white; 
+    margin: 10% auto;
+    width: 50%;
+    height: auto;
+}
+.header img{
+    height: 50px;
+    margin: 20px;
+}
+.crossbar :hover{
+    fill: rgba(20, 181, 255, 0.952);
+    transition: fill .3s ease-out;  
+}
+.pyramid :hover{
+    fill: deepPink;
+    transition: fill .3s ease-out;
+  }
+
+ .cult-text {
+    -webkit-animation:colorchange 20s infinite alternate;
+    animation-name:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+    0%   {fill:white;}
+    45%  {fill:red;}
+    50%  {fill:white;}
+    85%  {fill:blue;}
+    100% {fill:white;}
+}
+
+/* Standard syntax */
+@keyframes colorchange {
+    0%   {fill:white;}
+    45%  {fill:red;}
+    50%  {fill:white;}
+    85%  {fill:blue;}
+    100% {fill:white;}
+}
+
+.albums{
+    float: left;
+    color:white;
+    width: 40%;
+    margin: 25px;
+    padding: 5px;
+}
+.albums img{
+    width: 20%;
+}
+
+.tracklist{
+    font-size: 12px;
+}
+
+.bio{
+    color: white;
+    float: left;
+    width: 45%;
+    margin: 25px;
+    padding: 5px;
+}
+
+.other_links{
+    float:right;
+    margin: 20px;
+    padding: 5px;
+}
+
+a.svg:after {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+  }

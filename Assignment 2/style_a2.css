@@ -1,0 +1,113 @@
+body,
+html {
+    background: #f6f6f6;
+}
+
+
+/*IDs*/
+
+#painting {
+    background: #FFFFFF;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 10px #8d8d8d;
+    border: solid black 10px;
+}
+
+#toprow {
+    height: 290px;
+}
+
+#bigbox {
+    width: 290px;
+    height: 290px;
+}
+
+#square {
+    width: 100px;
+    height: 100px;
+}
+
+#divider1 {
+    width: 10px;
+    height: 290px;
+}
+
+#divider2 {
+    width: 100px;
+    height: 10px;
+}
+
+#divider3 {
+    width: 10px;
+    height: 100px;
+}
+
+#divider4 {
+    width: 20px;
+    height: 10px;
+}
+
+#middlerow {
+    width: 400px;
+    height: 10px;
+}
+
+
+/*Classes*/
+
+.red {
+    background: #cc3333;
+}
+.red:hover{
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+.blue:hover{
+    background: orange;
+}
+
+.yellow {
+    background: yellow;
+}
+.yellow:hover{
+    background: purple;
+}
+
+.black {
+    background: black;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.mediumbox {
+    width: 100px;
+    height: 140px;
+}
+
+.smallbox {
+    width: 20px;
+    height: 45px;
+}
+
+.middlelowerbox {
+    width: 260px;
+    height: 100px;
+}
+
+.lowerrightcolumn {
+    width: 20px;
+    height: 100px;
+}

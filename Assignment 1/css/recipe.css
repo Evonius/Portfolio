@@ -1,0 +1,66 @@
+html{
+    background: #505458;
+}
+
+img{
+    width:auto;
+    height:275px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.banner {
+
+    text-align: center;
+    color: #dcdfd6;
+}
+
+.content {
+    margin: auto;
+    width: 960px;
+    padding: 10px;
+}
+
+.ingredients {
+    padding: 5px;
+    margin: 15px;
+    float: left;
+    width: 435px;
+    border-color:#ac4d31;
+    border-style: solid;
+    border-radius: 4px;
+    background:#dcdfd6;
+}
+
+.instructions {
+    padding: 5px;
+    margin: 15px;
+    float: right;
+    width: 435px;
+    border-color:#ac4d31;
+    border-style: solid;
+    border-radius: 4px;
+    background:#dcdfd6;
+}
+
+.instructions2 {
+    padding: 5px;
+    margin: 25px;
+    margin: auto;
+    width: 435px;
+    border-color:#ac4d31;
+    border-style: solid;
+    border-radius: 4px;
+    background:#dcdfd6;
+}
+
+.foot {
+    text-align: center;
+}
